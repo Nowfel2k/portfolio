@@ -1,8 +1,3 @@
-# git clone https://github.com/Nowfel2k/react-template.git
+## Navfal - Portfolio
 
-# cd project
-
-# npm set progress=false && npm i
-
-optional:
-npm i react-router-dom @material-ui/core @material-ui/icons redux express cors react-redux
+Suggest me improvements, Hire me, Contact me, Message me, Email me, Play Among Us with me, wait, what?
