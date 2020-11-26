@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Intro from "./Components/Intro";
@@ -8,6 +8,10 @@ import Skills from "./Components/Skills";
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="app">
       <NavBar />

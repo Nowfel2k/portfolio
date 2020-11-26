@@ -11,7 +11,8 @@
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    /* --clr-accent: #16e0bd; */
+    --clr-accent: #599bf1;
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -103,7 +104,7 @@ h3 {
 }
 
 .section__title {
-    text-align: left;
+    text-align: center;
     margin-left: .25em;
     margin-bottom: .25em;
 }
@@ -114,6 +115,10 @@ h3 {
 
 .section__title--intro strong {
     display: block;
+}
+
+.title__left {
+    text-align: left !important;
 }
 
 .section__subtitle {
@@ -284,7 +289,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    /* background-image: url(../public/assets/img/services-bg.jpg); */
+    background-image: url(../Assets/images/services-bg.jpg);
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
@@ -336,6 +341,15 @@ header {
     box-shadow: var(--bs);
 }
 
+.about-me__body {
+    margin-top: -1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+    text-align: left;
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -345,6 +359,7 @@ header {
     }
     .section__title--about {
         grid-area: title;
+        margin-left: -0.10em;
     }
     .section__subtitle--about {
         grid-column: 1 / -1;
@@ -393,6 +408,28 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
+
+.my-work__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 3em;
+}
+
+.my-work__navigation > li > img {
+    width: 5vw;
+}
+
+
+
+
+
+
+
+
 
 /* footer */
 

@@ -9,28 +9,28 @@ function Skills() {
         <div className="service">
           <h3>Web Development</h3>
           <p>
-            I can create amazing websites using javascript libraries such as
-            React, JQuery and Frameworks like Angular. I can create stunning UI
-            components to provide a good user experience.
+            I can create amazing websites using Javascript, Firebase, ReactJS,
+            ExpressJS with MongoDB, npm, git, CSS Flexbox, Grid etc. I can
+            create stunning UI components to provide a good user experience.
           </p>
         </div>
 
         <div className="service">
           <h3>C++ Programming</h3>
           <p>
-            I love solving competitive questions based on logic and aptitude. I
-            have a good profile in coding platforms such as in HackerRank,
-            HackerEarth{" "}
+            I love solving competitive programming questions which are based on
+            logical thinking and aptitude. I am learning DSA via GeeksForGeeks
+            Course and I solve DSA questions on leetcode.
           </p>
         </div>
 
         <div className="service">
           <h3>Tutor</h3>
           <p>
-            I have good knowledge in JavaScript, C, C++, Angular, React and I
-            can use this to teach you to become an excellent developer. You can
-            score high marks in your exams, solve your assignments, clear
-            interviews and get placed in reputed IT companies.
+            I have good knowledge in JavaScript, ReactJS, CSS, Data Structures
+            in C++ and I can use this to teach you to become an excellent
+            developer. I can help you to score high marks in your exams, to get
+            good in solving DSA questions and prepare you for interviews.
           </p>
         </div>
       </div>

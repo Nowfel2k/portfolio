@@ -1,12 +1,15 @@
 import React from "react";
 import "../Style/index.css";
+import profileleft from "../Assets/images/profile-left.jpg";
 
 function About() {
   return (
     <section className="about-me" id="about">
-      <h2 className="section__title section__title--about">Who I am</h2>
-      <p className="section__subtitle section__subtitle--about">
-        Designer & developer based out of Chennai
+      <h2 className="section__title section__title--about title__left">
+        Who I am
+      </h2>
+      <p className="section__subtitle section__subtitle--about  title__left">
+        JavaScript Developer - Chennai, India.
       </p>
 
       <div className="about-me__body">
@@ -29,11 +32,7 @@ function About() {
         </p>
       </div>
 
-      <img
-        src={`${process.env.PUBLIC_URL}/assets/images/profile-left.jpg`}
-        alt="Portrait"
-        className="about-me__img"
-      />
+      <img src={profileleft} alt="Portrait" className="about-me__img" />
     </section>
   );
 }

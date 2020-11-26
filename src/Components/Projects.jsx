@@ -1,106 +1,165 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Style/index.css";
+import projects from "../projects";
+import ProjectCard from "./ProjectCard";
+
+import react from "../Assets/images/language-icons/react.png";
+import mern from "../Assets/images/language-icons/mern.png";
+import python from "../Assets/images/language-icons/python.png";
+import nodeimg from "../Assets/images/language-icons/node.png";
+import javascript from "../Assets/images/language-icons/javascript.png";
+import c from "../Assets/images/language-icons/c.png";
 
 function Projects() {
+  const [section, setSection] = useState("React");
+  const [projectList, setProjectList] = useState([]);
+
+  const changeSection = (language) => {
+    console.log(`${language} clicked...`);
+    return setSection(language);
+  };
+
+  useEffect(() => {
+    setProjectList(projects.filter((proj) => proj.section === section));
+    console.log(section);
+    console.log(projectList);
+  }, [section]);
+
   return (
     <section className="my-work" id="work">
-      <h2 className="section__title section__title--work">My work</h2>
+      <h2 className="section__title section__title--work">My works</h2>
       <p className="section__subtitle section__subtitle--work">
-        A selection of my range of work
+        A selection of my range of works
       </p>
 
+      <nav>
+        <ul className={"my-work__navigation"}>
+          <li onClick={() => changeSection("JavaScript")}>
+            <img src={javascript} alt="" />
+          </li>
+          <li onClick={() => changeSection("React")}>
+            <img src={react} alt="" />
+          </li>
+          <li onClick={() => changeSection("MERN")}>
+            <img src={mern} alt="" />
+          </li>
+          <li onClick={() => changeSection("NodeJS")}>
+            <img src={nodeimg} alt="" />
+          </li>
+          <li onClick={() => changeSection("C/C++")}>
+            <img src={c} alt="" />
+          </li>
+          <li onClick={() => changeSection("Python")}>
+            <img src={python} alt="" />
+          </li>
+        </ul>
+      </nav>
+
+      {projectList.map(({ image, name, language, date, site, code }) => (
+        <ProjectCard
+          image={image}
+          name={name}
+          language={language}
+          date={date}
+          site={site}
+          code={code}
+        />
+      ))}
+
+      {/* <ReactProjects /> */}
+
       {/* <div className="portfolio">
-        <a
+        <a  rel="noreferrer" 
           target="_blank"
           href="https://www.youtube.com/watch?v=KovLKs5n7_A"
           className="portfolio__item"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/chess.jpg`}
+            src={`/Assets/images/chess.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/connect4.jpg`}
+            src={`/Assets/images/connect4.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/ssn.jpg`}
+            src={`/Assets/images/ssn.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/patient.jpg`}
+            src={`/Assets/images/patient.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a
+        <a  rel="noreferrer" 
           target="_blank"
           href="http://nowfel2k.github.io/js-calculator"
           className="portfolio__item"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/calci.jpg`}
+            src={`/Assets/images/calci.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/tictactoe.png`}
+            src={`/Assets/images/tictactoe.png`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/profile.jpg`}
+            src={`/Assets/images/profile.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/library.jpg`}
+            src={`/Assets/images/library.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/string.jpg`}
+            src={`/Assets/images/string.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/taxi.jpg`}
+            src={`/Assets/images/taxi.jpg`}
             alt=""
             className="portfolio__img"
           />
         </a>
 
-        <a target="_blank" href="#" className="portfolio__item">
+        <a  rel="noreferrer"  target="_blank" href="#" className="portfolio__item">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/lift.jpg`}
+            src={`/Assets/images/lift.jpg`}
             alt=""
             className="portfolio__img"
           />
