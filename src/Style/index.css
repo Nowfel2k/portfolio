@@ -8,6 +8,7 @@
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
     --fw-reg: 300;
+    --fw-strong: 500;
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
@@ -33,7 +34,7 @@
 /* Scrollbar  */
 
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 0.5vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -45,7 +46,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    opacity: 0.5;
+    background:  #18e7c5;
 }
 
 
@@ -138,6 +139,21 @@ h3 {
 
 .title__left {
     text-align: left !important;
+}
+
+.section__languages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section__languages img {
+    cursor: pointer;
+    width: 5vw;
+    transition: transform 0.2s;
+}
+
+.section__languages img:hover {
+    transform: scale(1.05);
 }
 
 .section__subtitle {
@@ -285,7 +301,7 @@ header {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: "img title" "img subtitle";
+        grid-template-areas: "img title" "img languages" "img subtitle";
         grid-template-columns: min-content max-content;
     }
     .intro__img {
@@ -365,6 +381,10 @@ header {
     justify-content: space-evenly;
     height: 50vh;
     text-align: left;
+}
+
+.about-me__body p {
+    font-weight: var(--fw-strong);
 }
 
 @media (min-width: 600px) {

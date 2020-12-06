@@ -26,7 +26,6 @@ function NavBar() {
               onClick={handleClick}
               className="nav__link"
               duration={1500}
-              delay={500}
               smooth
             >
               Home
@@ -39,7 +38,6 @@ function NavBar() {
               onClick={handleClick}
               className="nav__link"
               duration={1500}
-              delay={500}
               smooth
             >
               About me
@@ -52,7 +50,6 @@ function NavBar() {
               onClick={handleClick}
               className="nav__link"
               duration={1500}
-              delay={500}
               smooth
             >
               My Services
@@ -65,7 +62,6 @@ function NavBar() {
               onClick={handleClick}
               className="nav__link"
               duration={1500}
-              delay={500}
               smooth
             >
               My Work

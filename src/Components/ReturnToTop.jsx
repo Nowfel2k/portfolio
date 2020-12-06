@@ -16,8 +16,8 @@ function ReturnToTop() {
       <button
         onClick={() =>
           scroll.scrollToTop({
-            duration: 2000,
             smooth: true,
+            duration: 100,
           })
         }
       >
