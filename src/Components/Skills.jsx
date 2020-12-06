@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/index.css";
+import { Link } from "react-scroll";
 
 function Skills() {
   return (
@@ -27,17 +28,16 @@ function Skills() {
         <div className="service">
           <h3>Tutor</h3>
           <p>
-            I have good knowledge in JavaScript, ReactJS, CSS, Data Structures
-            in C++ and I can use this to teach you to become an excellent
-            developer. I can help you to score high marks in your exams, to get
-            good in solving DSA questions and prepare you for interviews.
+            I have good knowledge in JavaScript, ReactJS, Google Firebase,
+            NodeJS, ExpressJS, MongoDB, CSS, Data Structure and Algorithm in C++
+            and I can guide you to become an excellent developer.
           </p>
         </div>
       </div>
 
-      <a href="#work" className="btn">
+      <Link to="work" className="btn" smooth duration={1500}>
         My Work
-      </a>
+      </Link>
     </section>
   );
 }

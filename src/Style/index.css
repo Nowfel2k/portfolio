@@ -11,8 +11,8 @@
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
-    /* --clr-accent: #16e0bd; */
-    --clr-accent: #599bf1;
+    --clr-accent: #16e0bd;
+    /* --clr-accent: #599bf1; */
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -29,13 +29,32 @@
     }
 }
 
+
+/* Scrollbar  */
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr-accent) ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 0.5;
+}
+
+
 /* General styles */
 
-/* endable this to add smooth scrolling */
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
     background: var(--clr-light);
@@ -187,6 +206,7 @@ header {
 }
 
 .nav-toggle {
+    outline: none !important;
     padding: .5em;
     background: transparent;
     border: 0;
@@ -312,24 +332,21 @@ header {
 }
 
 .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-bottom: 4em;
 }
 
 .service {
-    max-width: 500px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25vw;
 }
 
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .service+.service {
-        margin-left: 2em;
-    }
+.service > p {
+    margin-top: 1em;
 }
 
 .about-me {
@@ -486,4 +503,31 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Back to Top BUTTON */
+
+.returnToTop {
+    z-index: 100;
+    font-size: 5vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 3vw;
+    cursor: pointer;
+}
+
+.returnToTop > button {
+    outline: none;
+    border: none;
+    color: var(--clr-accent);
+    background-color: var(--clr-light);
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 3vh;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--clr-dark);  
+}
+
+.hide {
+    display: none;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/index.css";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const handleClick = () => {
@@ -20,24 +21,55 @@ function NavBar() {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="#home" onClick={handleClick} className="nav__link">
+            <Link
+              to="home"
+              onClick={handleClick}
+              className="nav__link"
+              duration={1500}
+              delay={500}
+              smooth
+            >
               Home
-            </a>
+            </Link>
           </li>
+
           <li className="nav__item">
-            <a href="#services" onClick={handleClick} className="nav__link">
-              My Services
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#about" onClick={handleClick} className="nav__link">
+            <Link
+              to="about"
+              onClick={handleClick}
+              className="nav__link"
+              duration={1500}
+              delay={500}
+              smooth
+            >
               About me
-            </a>
+            </Link>
           </li>
+
           <li className="nav__item">
-            <a href="#work" onClick={handleClick} className="nav__link">
+            <Link
+              to="services"
+              onClick={handleClick}
+              className="nav__link"
+              duration={1500}
+              delay={500}
+              smooth
+            >
+              My Services
+            </Link>
+          </li>
+
+          <li className="nav__item">
+            <Link
+              to="work"
+              onClick={handleClick}
+              className="nav__link"
+              duration={1500}
+              delay={500}
+              smooth
+            >
               My Work
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -14,6 +14,7 @@ import nodeimg from "./Assets/images/language-icons/node.png";
 import messenger from "./Assets/images/projects/messenger.jpg";
 import story from "./Assets/images/projects/story.png";
 import airbnb from "./Assets/images/projects/airbnb.png";
+import editor from "./Assets/images/projects/editor.jpeg";
 
 const projects = [
   {
@@ -58,8 +59,18 @@ const projects = [
     name: "Tic Tac Toe Game",
     language: "ReactJS, Hooks",
     date: "Oct 2020",
-    site: "https://nowfel2k.github.io/react-tictactoe/",
+    site: "https://tictactoe-nowfel2k.herokuapp.com/",
     code: "https://github.com/Nowfel2k/react-tictactoe",
+  },
+
+  {
+    section: "React",
+    image: editor,
+    name: "Code Editor - Create your website",
+    language: "ReactJS, Hooks",
+    date: "Dec 2020",
+    site: "https://navfal-code-editor.herokuapp.com",
+    code: "https://github.com/Nowfel2k/react-code-editor",
   },
   {
     section: "React",

@@ -1,10 +1,23 @@
 .projectCard {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    // justify-content: center;
     padding: 30px 10px;
     width: 100%;
     border: 1px solid lightsteelblue;
+}
+
+.projectCard__img {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.projectCard__info {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {

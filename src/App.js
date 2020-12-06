@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import "./App.css";
+import ReturnToTop from "./Components/ReturnToTop";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
+      <ReturnToTop />
     </div>
   );
 }

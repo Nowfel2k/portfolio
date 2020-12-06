@@ -15,14 +15,13 @@ function Projects() {
   const [projectList, setProjectList] = useState([]);
 
   const changeSection = (language) => {
-    console.log(`${language} clicked...`);
+    console.log(projectList);
+
     return setSection(language);
   };
 
   useEffect(() => {
     setProjectList(projects.filter((proj) => proj.section === section));
-    console.log(section);
-    console.log(projectList);
   }, [section]);
 
   return (
