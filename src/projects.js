@@ -10,13 +10,21 @@ import lift from "./Assets/images/projects/lift.jpg";
 import chess from "./Assets/images/projects/chess.jpg";
 import jarvis from "./Assets/images/projects/jarvis.jpg";
 import calci from "./Assets/images/projects/calci.jpg";
-import nodeimg from "./Assets/images/language-icons/node.png";
 import messenger from "./Assets/images/projects/messenger.jpg";
 import story from "./Assets/images/projects/story.png";
 import airbnb from "./Assets/images/projects/airbnb.png";
 import editor from "./Assets/images/projects/editor.jpeg";
 
 const projects = [
+  {
+    section: "React",
+    image: editor,
+    name: "Code Editor - Create your website",
+    language: "ReactJS, Hooks",
+    date: "Dec 2020",
+    site: "https://navfal-code-editor.herokuapp.com",
+    code: "https://github.com/Nowfel2k/react-code-editor",
+  },
   {
     section: "React",
     image: whatsapp,
@@ -37,15 +45,6 @@ const projects = [
   },
   {
     section: "React",
-    image: hulu,
-    name: "Hulu Website",
-    language: "ReactJS, Material-UI, Google Firebase, MovieDB API",
-    date: "Sep 2020",
-    site: "https://hulu-nowfel2k.web.app/",
-    code: "https://github.com/Nowfel2k/react-hulu-clone",
-  },
-  {
-    section: "React",
     image: messenger,
     name: "Messenger App",
     language: "ReactJS, Material-UI, Google Firebase",
@@ -62,15 +61,14 @@ const projects = [
     site: "https://tictactoe-nowfel2k.herokuapp.com/",
     code: "https://github.com/Nowfel2k/react-tictactoe",
   },
-
   {
     section: "React",
-    image: editor,
-    name: "Code Editor - Create your website",
-    language: "ReactJS, Hooks",
-    date: "Dec 2020",
-    site: "https://navfal-code-editor.herokuapp.com",
-    code: "https://github.com/Nowfel2k/react-code-editor",
+    image: hulu,
+    name: "Hulu Website",
+    language: "ReactJS, Material-UI, Google Firebase, MovieDB API",
+    date: "Sep 2020",
+    site: "https://hulu-nowfel2k.web.app/",
+    code: "https://github.com/Nowfel2k/react-hulu-clone",
   },
   {
     section: "React",
@@ -184,7 +182,7 @@ const projects = [
     name: "Stories Sharing App",
     language: "NodeJS, ExpressJS with HBS, MongoDB Atlas",
     date: "Nov 2020",
-    // site: " TOBE Deployed ",
+    // site: " TO BE Deployed ",
     code: "https://github.com/Nowfel2k/express-stories-app",
   },
 ];
