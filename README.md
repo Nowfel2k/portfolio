@@ -1,8 +1,7 @@
-# git clone https://github.com/Nowfel2k/react-template.git
+## Navfal - Portfolio
 
-# cd project
+LIVE DEPLOYED SITE: https://navfal.herokuapp.com/
 
-# npm set progress=false && npm i
+Suggest me improvements, Hire me, Contact me, Message me, Email me, Play Among Us with me, wait, what?
 
-optional:
-npm i react-router-dom @material-ui/core @material-ui/icons redux express cors react-redux
+
