@@ -15,6 +15,9 @@ function Intro() {
       <h1 className="section__title section__title--intro  title__left">
         Hi, I am <strong>Muhammed Navfal</strong>
       </h1>
+      <p className="section__subtitle section__subtitle--intro">
+        Full Stack Developer
+      </p>
       <p className="section__languages">
         <img src={javascript} alt="" />
         <img src={react} alt="" />
@@ -22,9 +25,6 @@ function Intro() {
         <img src={mern} alt="" />
         <img src={css} alt="" />
         <img src={firebase} alt="" />
-      </p>
-      <p className="section__subtitle section__subtitle--intro">
-        Full Stack Web Developer
       </p>
       <img src={selfie} alt="Portrait of Navfal" className="intro__img" />
     </section>

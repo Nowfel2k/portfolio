@@ -9,12 +9,13 @@ function About() {
         Who I am
       </h2>
       <p className="section__subtitle section__subtitle--about  title__left">
-        JavaScript Developer - Chennai, India.
+        Software Engineer from Chennai, India
       </p>
+      <img src={profileleft} alt="Portrait" className="about-me__img" />
 
       <div className="about-me__body">
         <p>
-          I am a full-stack javascript developer from Chennai, India. I have
+          I am a Full-Stack Javascript Developer from Chennai, India. I have
           been coding for the past two years and I have studied various
           languages and libraries such as JavaScript, CSS, ReactJS, ExpressJS,
           MongoDB, Firebase etc.{" "}
@@ -31,8 +32,6 @@ function About() {
           am searching for the best way to achieve that.
         </p>
       </div>
-
-      <img src={profileleft} alt="Portrait" className="about-me__img" />
     </section>
   );
 }

@@ -80,6 +80,15 @@ const projects = [
     code: "https://github.com/Nowfel2k/react-airbnb-clone",
   },
   {
+    section: "React",
+    image: airbnb,
+    name: "Ecommerce Online App",
+    language: "ReactJS, Material-UI, Stripe API, ExpressJS",
+    date: "Nov 2020",
+    site: "https://navfal-online-store.herokuapp.com/",
+    code: "https://github.com/Nowfel2k/react-amazon-clone",
+  },
+  {
     section: "MERN",
     image: tinder,
     name: "Tinder App",
