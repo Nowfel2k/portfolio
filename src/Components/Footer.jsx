@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <a
         rel="noreferrer"
-        href="mailto:muhammednavfal1@gmail.com"
+        href="mailto:navfal.dev@gmail.com"
         className="footer__link"
       >
         @muhammednavfal
@@ -17,7 +17,7 @@ function Footer() {
             rel="noreferrer"
             className="social-list__link"
             target="_blank"
-            href="https://github.com/nowfel2k"
+            href="https://github.com/navfal-dev"
           >
             <i className="fab fa-github"></i>
           </a>
@@ -27,17 +27,7 @@ function Footer() {
             rel="noreferrer"
             className="social-list__link"
             target="_blank"
-            href="https://www.messenger.com/t/nowfel2k"
-          >
-            <i className="fab fa-facebook-messenger"></i>
-          </a>
-        </li>
-        <li className="social-list__item">
-          <a
-            rel="noreferrer"
-            className="social-list__link"
-            target="_blank"
-            href="https://twitter.com/Navfal14"
+            href="https://twitter.com/devNaufal"
           >
             <i className="fab fa-twitter"></i>
           </a>
@@ -47,7 +37,7 @@ function Footer() {
             rel="noreferrer"
             className="social-list__link"
             target="_blank"
-            href="https://www.linkedin.com/in/nowfel2k"
+            href="https://www.linkedin.com/in/navfal-dev"
           >
             <i className="fab fa-linkedin"></i>
           </a>

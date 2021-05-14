@@ -106,7 +106,7 @@ function Projects() {
 
         <a  rel="noreferrer" 
           target="_blank"
-          href="http://nowfel2k.github.io/js-calculator"
+          href="http://navfal-dev.github.io/js-calculator"
           className="portfolio__item"
         >
           <img

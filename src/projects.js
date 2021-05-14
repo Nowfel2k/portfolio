@@ -14,6 +14,7 @@ import messenger from "./Assets/images/projects/messenger.jpg";
 import story from "./Assets/images/projects/story.png";
 import airbnb from "./Assets/images/projects/airbnb.png";
 import editor from "./Assets/images/projects/editor.jpeg";
+import amazon from "./Assets/images/projects/amazon.jpg";
 
 const projects = [
   {
@@ -23,7 +24,7 @@ const projects = [
     language: "ReactJS, Hooks",
     date: "Dec 2020",
     site: "https://navfal-code-editor.herokuapp.com",
-    code: "https://github.com/Nowfel2k/react-code-editor",
+    code: "https://github.com/navfal-dev/react-code-editor",
   },
   {
     section: "React",
@@ -32,7 +33,7 @@ const projects = [
     language: "ReactJS, Material-UI, Google Firebase",
     date: "Sep 2020",
     site: "https://whatsapp-clone-75c3a.web.app/",
-    code: "https://github.com/Nowfel2k/react-whatsapp-clone",
+    code: "https://github.com/navfal-dev/react-whatsapp-clone",
   },
   {
     section: "React",
@@ -41,7 +42,7 @@ const projects = [
     language: "ReactJS, MovieDB API",
     date: "Sep 2020",
     site: "https://movie-search-nowfel2k.herokuapp.com/",
-    code: "https://github.com/Nowfel2k/movie-search-app",
+    code: "https://github.com/navfal-dev/movie-search-app",
   },
   {
     section: "React",
@@ -50,7 +51,7 @@ const projects = [
     language: "ReactJS, Material-UI, Google Firebase",
     date: "Sep 2020",
     site: "https://messenger-nowfel2k.web.app/",
-    code: "https://github.com/Nowfel2k/react-messenger-app",
+    code: "https://github.com/navfal-dev/react-messenger-app",
   },
   {
     section: "React",
@@ -59,7 +60,7 @@ const projects = [
     language: "ReactJS, Hooks",
     date: "Oct 2020",
     site: "https://tictactoe-nowfel2k.herokuapp.com/",
-    code: "https://github.com/Nowfel2k/react-tictactoe",
+    code: "https://github.com/navfal-dev/react-tictactoe",
   },
   {
     section: "React",
@@ -68,7 +69,7 @@ const projects = [
     language: "ReactJS, Material-UI, Google Firebase, MovieDB API",
     date: "Sep 2020",
     site: "https://hulu-nowfel2k.web.app/",
-    code: "https://github.com/Nowfel2k/react-hulu-clone",
+    code: "https://github.com/navfal-dev/react-hulu-clone",
   },
   {
     section: "React",
@@ -77,16 +78,16 @@ const projects = [
     language: "ReactJS, Material-UI",
     date: "Oct 2020",
     site: "https://airbnb-nowfel2k.herokuapp.com/",
-    code: "https://github.com/Nowfel2k/react-airbnb-clone",
+    code: "https://github.com/navfal-dev/react-airbnb-clone",
   },
   {
     section: "React",
-    image: airbnb,
+    image: amazon,
     name: "Ecommerce Online App",
     language: "ReactJS, Material-UI, Stripe API, ExpressJS",
     date: "Nov 2020",
     site: "https://navfal-online-store.herokuapp.com/",
-    code: "https://github.com/Nowfel2k/react-amazon-clone",
+    code: "https://github.com/navfal-dev/react-amazon-clone",
   },
   {
     section: "MERN",
@@ -95,7 +96,7 @@ const projects = [
     language: "ReactJS, ExpressJS, NodeJS, MongoDB, Material-UI",
     date: "Sep 2020",
     site: "https://tinder-nowfel2k.herokuapp.com/",
-    code: "https://github.com/Nowfel2k/mern-tinder-clone",
+    code: "https://github.com/navfal-dev/mern-tinder-clone",
   },
 
   {
@@ -105,7 +106,7 @@ const projects = [
     language: "C Language",
     date: "Sep 2019",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/C/blob/master/CONNECT4",
+    code: "https://github.com/navfal-dev/C/blob/master/CONNECT4",
   },
 
   {
@@ -115,7 +116,7 @@ const projects = [
     language: "C Language",
     date: "Sep 2019",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/C/blob/master/TICTACTOE",
+    code: "https://github.com/navfal-dev/C/blob/master/TICTACTOE",
   },
 
   {
@@ -125,7 +126,7 @@ const projects = [
     language: "C Language",
     date: "Sep 2019",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/C/blob/master/Library%20Management.c",
+    code: "https://github.com/navfal-dev/C/blob/master/Library%20Management.c",
   },
 
   {
@@ -135,7 +136,7 @@ const projects = [
     language: "C Language",
     date: "Sep 2019",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/C/blob/master/LIFT",
+    code: "https://github.com/navfal-dev/C/blob/master/LIFT",
   },
 
   {
@@ -145,7 +146,7 @@ const projects = [
     language: "C Language",
     date: "Sep 2019",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/C/blob/master/OLA",
+    code: "https://github.com/navfal-dev/C/blob/master/OLA",
   },
   {
     section: "Python",
@@ -154,7 +155,7 @@ const projects = [
     language: "Python",
     date: "Sep 2018",
     site: "https://www.youtube.com/watch?v=KovLKs5n7_A&ab_channel=LivenCoder",
-    code: "https://github.com/Nowfel2k/PYTHON/blob/master/MINI-CHESS",
+    code: "https://github.com/navfal-dev/PYTHON/blob/master/MINI-CHESS",
   },
   {
     section: "Python",
@@ -163,7 +164,7 @@ const projects = [
     language: "Python, pyttsx3",
     date: "Sep 2018",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/PYTHON/blob/master/JARVIS",
+    code: "https://github.com/navfal-dev/PYTHON/blob/master/JARVIS",
   },
   {
     section: "Python",
@@ -172,7 +173,7 @@ const projects = [
     language: "Python",
     date: "Sep 2018",
     // site: " VIDEO NEEDED ",
-    code: "https://github.com/Nowfel2k/PYTHON/blob/master/TICTACTOE",
+    code: "https://github.com/navfal-dev/PYTHON/blob/master/TICTACTOE",
   },
 
   {
@@ -182,7 +183,7 @@ const projects = [
     language: "JavaScript",
     date: "Sep 2019",
     site: "https://nowfel2k.github.io/js-calculator/",
-    code: "https://github.com/Nowfel2k/js-calculator",
+    code: "https://github.com/navfal-dev/js-calculator",
   },
 
   {
@@ -192,7 +193,7 @@ const projects = [
     language: "NodeJS, ExpressJS with HBS, MongoDB Atlas",
     date: "Nov 2020",
     // site: " TO BE Deployed ",
-    code: "https://github.com/Nowfel2k/express-stories-app",
+    code: "https://github.com/navfal-dev/express-stories-app",
   },
 ];
 

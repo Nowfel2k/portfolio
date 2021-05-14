@@ -11,26 +11,28 @@ function Skills() {
           <h3>Web Development</h3>
           <p>
             I can create amazing websites using Javascript, Firebase, ReactJS,
-            ExpressJS with MongoDB, npm, git, CSS Flexbox, Grid etc. I can
-            create stunning UI components to provide a good user experience.
+            bootstrap, npm, git, CSS Flex, Grid and more. I can create stunning
+            UI components to provide a good user experience.
           </p>
         </div>
 
         <div className="service">
           <h3>C++ Programming</h3>
           <p>
-            I love solving competitive programming questions which are based on
-            logical thinking and aptitude. I am learning DSA via GeeksForGeeks
-            Course and I solve DSA questions on leetcode.
+            I love solving competitive programming/interview questions which are
+            based on logical thinking and aptitude. I learn from various sources
+            such as GeeksForGeeks, Leetcode, Hackerrank, YouTube - Prepbytes,
+            Abdul Bari.
           </p>
         </div>
 
         <div className="service">
           <h3>Tutor</h3>
           <p>
-            I have good knowledge in JavaScript, ReactJS, Google Firebase,
-            NodeJS, ExpressJS, MongoDB, CSS, Data Structure and Algorithm in C++
-            and I can guide you to become an excellent developer.
+            I have good knowledge in HTML & CSS, JavaScript, ReactJS, Bootstrap,
+            Google Firebase - Authentication, Firestore, Hosting, Data Structure
+            and Algorithm in C++ and I can guide you to become an excellent
+            developer.
           </p>
         </div>
       </div>

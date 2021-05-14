@@ -16,20 +16,21 @@ function About() {
       <div className="about-me__body">
         <p>
           I am a Full-Stack Javascript Developer from Chennai, India. I have
-          been coding for the past two years and I have studied various
-          languages and libraries such as JavaScript, CSS, ReactJS, ExpressJS,
-          MongoDB, Firebase etc.{" "}
+          been coding for the past two years and I have worked on various
+          languages and libraries such as JavaScript, Jquery, CSS, ReactJS,
+          Google Firebase, C++ for DSA and more.
         </p>
         <p>
           On October 2020, I passed out of college as Bachelor's graduate with
           8.5 cumulative GPA. I had my fair share of coding fun in college by
-          winning in coding contests and conducting contest for students.
+          winning in coding contests, learning and teaching my friends, and
+          conducting contests for other students.
         </p>
         <p>
           I was offered job by TATA Consultancy Service and Wipro but I had to
-          reject them because I wanted to aim higher. I want to become a
-          full-stack developer in one of the top product based companies and I
-          am searching for the best way to achieve that.
+          reject them because I wanted to aim higher. So I applied for a
+          developer position in Zoho and after some challenging rounds I cleared
+          the interviews and joined Zoho in 2021.
         </p>
       </div>
     </section>
